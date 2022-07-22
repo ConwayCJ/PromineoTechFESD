@@ -4,16 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&family=Montserrat&family=Open+Sans:wght@300&family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="reset" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Horror Movies!</title>
   </head>
   <body>
     <nav>
-      <a href="index.html">Main Page</a>
-      <a href="tierlist.html">Killer Tier List</a>
-      <a href="origins.html">Killer/Survivor origins</a>
+      <li><img height="33px" src="dbd_logo.png"></li>
+      <li><a href="index.html">Main Page</a></li>
+      <li><a href="tierlist.html">Killer Tier List</a></li>
+      <li><a href="origins.html">Killer/Survivor origins</a></li>    
     </nav>
-
-    <h2>
+    <main id="block-content">
+      <h2>
       Which survivors in Dead by Daylight are licensed and which are original?
     </h2>
 
@@ -22,8 +26,9 @@
       src="https://www.gamersdecide.com/sites/default/files/top_5_dead_by_daylight_mostfun_survivors.jpg"
     /><br />
 
+    <section class="character-list">
     <ul>
-      Original Survivor Characters:
+     <p>Original Characters</p>
       <li>Dwight</li>
       <li>Meg</li>
       <li>Claudette</li>
@@ -45,7 +50,7 @@
     </ul>
 
     <ul>
-      Liscened Characters:
+     <p>Liscened Characters:</p>      
       <li>Left for Dead: Bill</li>
       <li>Nightmare on Elm Street: Quentin</li>
       <li>Ash vs. Evil Dead: Ash</li>
@@ -53,7 +58,19 @@
       <li>Silent Hill: Cheryl</li>
       <li>Resident Evil: Jill, Leon</li>
     </ul>
+  </section>
 
+</main>
+<footer><form action="/action_page.php">
+  <p><strong>Sign up for our emailing list!</strong></p>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" required>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname" required><br><br>
+  <label for="email">Email:</label><br>
+  <input type="text" id="email" required></label><br>
+  <input class ="submit-button" type="button" value="Submit">
+</form></footer>
     <table></table>
   </body>
 </html>

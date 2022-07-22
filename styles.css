@@ -1,0 +1,126 @@
+/*General CSS for all 3 html files - block content * positioning & nav*/
+body {
+  font-family: "Montserrat";
+  background: rgb(50,55,56);
+  background: linear-gradient(180deg, rgba(50,55,56,1) 7%, rgba(121,73,9,0.8491771708683473) 21%, rgba(23,13,31,1) 41%);
+  background-attachment: fixed;
+}
+
+main {
+  border-style: double;
+  background-color: #EEEEEE;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 26px;
+  font-family: "Playfair Display";
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 18px;
+  font-family: "Montserrat"
+}
+
+nav {
+  position:sticky;
+  top:10px;
+  border-style: double;
+  background-color: #EEEEEE;
+  display: inline-block;
+  list-style-type:none;
+  width: 100%;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  text-decoration: none;
+  padding: 8px 16px;
+  font-weight: bold;
+  color: #000000;
+}
+
+nav li a:hover {
+  background-color: #c0c0c0;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+nav li a:active {
+  margin-top: 2px;
+}
+
+footer /*This is the form*/ {
+  margin-top: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 15px;
+  display: block;
+  background-color: #EEEEEE;  
+}
+
+footer {
+  border-style: double;
+}
+
+#block-content {
+  
+  display:grid;
+  background-color:#EEEEEE;
+  max-width: 80%;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: 40px;
+  padding: 30px;
+  justify-content: center;
+  justify-items: center;
+}
+
+.submit-button {
+  margin-top:5px;
+  border-radius: 4px;  
+}
+
+.submit-button:hover {
+  background-color: #c0c0c0;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.submit-button:active {
+  border:#EEEEEE;
+}
+
+/*tierlist.html CSS for table*/
+
+.killer-name {
+  border: 1px solid black;
+  background-color: #6d6d6d4b;
+}
+
+.killer-image {
+  border: 8px groove gray;
+  background-color: wheat;
+}
+
+/*Content involving origins.html - list of characters/picture*/
+
+ul {
+  float: left;
+}
+
+ul li {
+  
+  list-style-type: disc;
+
+}
+ul p {
+  font-style: italic;
+  font-weight: 700;
+  font-variant-caps: petite-caps;
+}
+
+

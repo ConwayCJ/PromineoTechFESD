@@ -4,58 +4,89 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&family=Montserrat&family=Open+Sans:wght@300&family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="reset" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Horror Video Games!</title>
   </head>
   <body>
     <nav>
-      <a href="index.html">Main Page</a>
-      <a href="tierlist.html">Killer Tier List</a>
-      <a href="origins.html">Killer/Survivor origins</a>
+      <li><img height="33px" src="dbd_logo.png"></li>
+      <li><a href="index.html">Main Page</a></li>
+      <li><a href="tierlist.html">Killer Tier List</a></li>
+      <li><a href="origins.html">Killer/Survivor origins</a></li>    
     </nav>
 
-    <h1>Tier list of my top 5 killers based on how overpowered they are:</h1>
-
-    <table style="width: 60%">
+    <main id="block-content">
+      <h1>Tier list of my top 5 overpowered killers</h1>
+      <table style="width: 60%">
       <tr>
-        <th>Killers</th>
-        <th>S</th>
-        <th>A</th>
-        <th>B</th>
-        <th>C</th>
+        <th class="killer-name">Killers</th>
+        <th class="killer-name">S</th>
+        <th class="killer-name">A</th>
+        <th class="killer-name">B</th>
+        <th class="killer-name">C</th>
       </tr>
       <tr>
-        <th>Trapper</th>
+        <th class="killer-name">Trapper</th>
         <th></th>
         <th></th>
         <th></th>
         <th>
           <img
-            src="/Week7/K01_charPreview_portrait.webp"
+            class="killer-image"
+            src="K01_charPreview_portrait.webp"
             alt="Trapper from DBD"
           />
         </th>
       </tr>
       <tr>
-        <th>Wraith</th>
+        <th class="killer-name">Wraith</th>
         <th></th>
-        <th><img src="/Week7/K02_charPreview_portrait.webp" /></th>
+        <th></th>
+        <th><img 
+          class="killer-image"
+          src="K02_charPreview_portrait.webp"
+          alt ="Wraith from Dead by Daylight" /></th>
       </tr>
       <tr>
-        <th>Billy</th>
-        <th><img src="/Week7/K03_charPreview_portrait.webp" /></th>
+        <th class="killer-name">Billy</th>
+        <th><img 
+          class="killer-image"
+          src="K03_charPreview_portrait.webp"
+          alt="Billy from Dead by Daylight" 
+        /></th>
       </tr>
       <tr>
-        <th>Nurse</th>
-        <th><img src="/Week7/K04_charPreview_portrait.webp" /></th>
+        <th class="killer-name">Nurse</th>
+        <th></th>
+        <th><img 
+          class="killer-image"
+          src="K04_charPreview_portrait.webp"
+          img="Nurse from Dead by Daylight" /></th>
       </tr>
       <tr>
-        <th>Michael<br />
+        <th class="killer-name">Michael<br />
           Meyers</th>
         <th></th>
         <th></th>
-        <th><img src="/Week7/K05_charPreview_portrait.webp" /></th>
+        <th><img 
+          class="killer-image"
+          src="K05_charPreview_portrait.webp"
+          alt="Michael Meyers from Dead by Daylight" /></th>
       </tr>
       <th></th>
     </table>
+  </main>
+  <footer><form action="/action_page.php">
+    <p><strong>Sign up for our emailing list!</strong></p>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" required>
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname" required><br><br>
+    <label for="email">Email:</label><br>
+    <input type="text" id="email" required></label><br>
+    <input class ="submit-button" type="button" value="Submit">
+  </form></footer>
   </body>
 </html>
