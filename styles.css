@@ -4,6 +4,8 @@ body {
   background: rgb(50,55,56);
   background: linear-gradient(180deg, rgba(50,55,56,1) 7%, rgba(121,73,9,0.8491771708683473) 21%, rgba(23,13,31,1) 41%);
   background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
 }
 
 main {
@@ -68,16 +70,18 @@ footer {
 }
 
 #block-content {
-  
-  display:grid;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
   background-color:#EEEEEE;
-  max-width: 80%;
-  margin-left: 400px;
-  margin-right: 400px;
-  margin-top: 40px;
   padding: 30px;
-  justify-content: center;
-  justify-items: center;
+  align-content: center;
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+#char-picture {
+  max-width: 80%;
 }
 
 .submit-button {
