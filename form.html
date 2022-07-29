@@ -1,0 +1,114 @@
+<!--
+  1.	Using HTML, Bootstrap, and JavaScript create a single page website that contains the following:
+    a.	A Bootstrap styled table representing your choice of data.
+    b.	A Bootstrap styled form that allows a user to add a new row to the table when submitted.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      rel="stylesheet"
+      href="/node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <title>Main Page & Form</title>
+    <style>
+      body {
+        background-color: #eeeeee;
+      }
+
+      .alert {
+        color: maroon;
+        font-weight: 600;
+        display: grid;
+        justify-content: center;
+      }
+      
+      p {
+        display: grid;
+        justify-content: center;
+        font-weight: 600;
+        font-size: larger;
+        border-top: 1px solid black;
+      }
+
+      form {
+        margin: 10px;
+        padding: 1rem;
+        border: 1px solid black; 
+      }
+
+      ul li:hover{
+        background-color: gray;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a href="https://www.promineotech.com/" class="navbar navbar-brand"
+          ><img
+            height="50px"
+            src="https://scontent-sea1-1.xx.fbcdn.net/v/t1.6435-9/109575757_10159138765390961_3217395861163826665_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=sErssnuFsEkAX9f1q8r&_nc_ht=scontent-sea1-1.xx&oh=00_AT8qG_klUQh7sY13m-yd4KibppApUU3J2jsDRVFYCoGFxw&oe=6307D915"
+          />
+        </a>
+        <ul class="navbar-nav me-auto mb-auto mb-lg-0">
+          <li class="fs-5 fw-bold nav-item">
+            <a class="nav-link active" href="index.html">Table </a>
+          </li>
+          <li class="fs-5 fw-bold nav-item">
+            <a class="nav-link active" href="form.html">Form</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="https://www.linkedin.com/in/conwaycj/"
+              ><img
+                height="25px"
+                src="https://image.similarpng.com/very-thumbnail/2020/07/Linkedin-logo-on-transparent--background-PNG.png"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="alert alert-primary">
+      Requirements: <br />
+      1. Using HTML, Bootstrap, and JavaScript create a single page website that
+      contains the following: <br />a. A Bootstrap styled table representing
+      your choice of data. <br />b. A Bootstrap styled form that allows a user
+      to add a new row to the table when submitted.
+    </section>
+
+    <p>Bootstrap Styled Form</p>
+    <br>
+    <!--Bootstrap styled form-->
+    <form class="row container-fluid">
+      <div class="col-md-6">
+        <label for="inputEmail" class="form-label">To:</label>
+        <input type="email" class="form-control" id="inputEmail" placeholder="janedoe@email.com">
+      </div>
+      <div class="col-md-6">
+        <label for="formFile" class="form-label"></label>
+        <input class="form-control" type="file" id="formFile">
+      </div>
+      <div class="mb-3 col-md-12">
+        <label for="exampleFormControlTextarea1" class="form-label">Message:</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Enter Message"></textarea>
+      </div>
+      <div class="">
+        <button class="btn btn-secondary" type="submit">Submit</button>
+      </div>
+
+    </form>
+
+    <script src="/node_modules/bootstrap/dist/css/bootstrap.css"></script>
+    <script src="/node_modules/jquery/dist/jquery.js"></script>
+  </body>
+</html>
