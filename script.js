@@ -22,7 +22,6 @@ function changePlayer () {
     }
 }
 
-
 const handlePlayerMove = function(event) {
     let gameWon = false
     const box = event.target
@@ -56,7 +55,6 @@ $('.board').on('click', handlePlayerMove)
 function removeListeners () {
     $('.board').off()
 }
-
 
 const winningCombinations = [
     [0, 1, 2],
@@ -100,26 +98,3 @@ $('.resetButton').on('click', function () {
 })
 
 startGame()
-
-
-
-
-
-
-// function checkWinner() {
-
-
-
-//     for (let i = 0; i < winningCombinations.length; i++) {
-
-
-
-//         winningCombinations[i].every((ele) => {
-            
-//             return gameBoard[ele] == 'X'
-//         })
-//         }
-//     }
-    
-
-
