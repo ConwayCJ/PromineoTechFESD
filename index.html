@@ -1,12 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body >
+    <div class="text-center">
+      <!--Content: Pokemon images & Header-->
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/269px-International_Pok%C3%A9mon_logo.svg.png?20150121202211"
+      />
+      <img height="140px" src="https://www.nicepng.com/png/full/62-622961_no-one-knows-if-people-eat-pokmon-png.png">
+      <header class="display-4 font-weight-bold font-italic font-underline"><u>Create your own PokeParty</u></header>
+    </div>
+
+    <div id="create-new-party" class="m-4">
+      <form id="newPartyForm">
+        <div class="form-group w-25 container">
+          <label for="newTrainer" class="form-label font-weight-bold">Lets start your ideal PokeParty!</label>
+          <input type="text" class="form-control" id="newTrainer" placeholder="Enter Trainer Name">
+          <button type="submit" class="mt-1 btn btn-primary">Submit</button>
+        </div>
+      </form>
+      <!--This will be the form where you create new parties-->
+    </div>
+
+    <div id="app">
+
+      
+
+
+      <!--This will be the app that handles&holds the parties you've created-->
+
+      <!--Example party:
+        <div !!NEED STYLING TO ADJUST SIDE OF SCREEN!!>
+          <h4 !!NEED STYLING TO LOOK LIKE POKEMON FONT!!>Trainer Chris</h4>
+          <div !!NEED STYLING TO LOOK LIKE BUBBLES!!>Pikachu</div>
+          <div !!NEED STYLING TO LOOK LIKE BUBBLES!!>Golebat</div
+        </div>
+
+      -->
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" 
+            integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" 
+            crossorigin="anonymous">
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/script.js"></script>
+  </body>
 </html>
