@@ -1,6 +1,6 @@
 
 
-  const crudUrl = 'https://crudcrud.com/api/20042194495041068b473bad1589fc93/pokemon'
+  const crudUrl = 'https://crudcrud.com/api/ff043623d1f444f1a439aa9e6e682095/pokemon'
   const pokeAPI = 'https://pokeapi.co/api/v2'
   let listOfPokemon
   let listOfTrainers
