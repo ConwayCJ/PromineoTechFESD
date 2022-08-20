@@ -1,3 +1,31 @@
 body {
   background: rgb(134, 167, 167);
 }
+
+input {
+  max-width: 300px;
+}
+
+#create-new-party {
+margin-top: 10px;
+display: flex;
+justify-content: center;
+}
+
+.trainer-box {
+  background-image: url(/pokemon_trainer_banner.png);
+  background-size: contain;
+  color: rgb(255, 255, 255);
+  width: 400px;
+  padding: 10px;
+  margin: 3px;
+  font-family: 'Pokemon Solid', sans-serif;
+  border-top-left-radius: 4%;
+  border-top-right-radius: 4%;
+}
+
+.trainerFont {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  -webkit-text-stroke: 1px black; /* width and color */
+}
