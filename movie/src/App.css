@@ -1,0 +1,41 @@
+body {
+  background: rgb(72, 72, 98);
+  color:rgb(255, 255, 255);
+}
+
+/* Nav*/
+.nav-link {
+  color: white;
+  font-weight: 400;
+  font-size: larger;
+}
+
+.navbar {
+  justify-content: right;
+}
+
+/* Welcome Jumbrotron */
+.welcomeSection {
+  padding: 2em;
+  margin-bottom: 1em;
+}
+
+/* Star Component */
+.star {
+  cursor: pointer;
+  transition: color 200ms;
+}
+
+/* Card CSS */
+.card-body {
+  font-weight: 600;
+}
+
+.row div {
+  width: auto;  
+}
+
+/* User Reviews */
+.reviewsContainer {
+  min-height: fit-content;
+}
